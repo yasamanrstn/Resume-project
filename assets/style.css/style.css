@@ -1,0 +1,249 @@
+:root {
+    --dark-cream: rgb(77, 46, 18);
+    --light-cream: (#f7e2c6);
+    --brown: rgb(185, 110, 53);
+    --creamy: #fbe3b6;
+}
+
+@font-face {
+    font-family: "Gulzar-Regular";
+    src: url(..//font/Gulzar-Regular.ttf);
+}
+
+@font-face {
+    font-family: "IranNastaliq";
+    src: url(..//font/IranNastaliq.ttf);
+}
+
+@font-face {
+    font-family: "Lalezar-Regular";
+    src: url(..//font/Lalezar-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rekisa-Regular  ";
+    src: url(..//font/Rekisa-Regular\ .ttf);
+}
+
+@font-face {
+    font-family: "RolleteQaku-Regular";
+    src: url(..//font/RolleteQaku-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Sawokecik-Regular";
+    src: url(..//font/Sawokecik-Regular.ttf);
+}
+
+body {
+    background-color: var(--creamy);
+    padding: 8%;
+}
+
+.container {
+    background-color: #fbf7f1;
+    padding: 5%;
+    border-radius: 5%;
+    border: 2px solid rgb(77, 46, 18);
+    box-shadow: 10px 10px rgb(201, 141, 89);
+    font-family: "Rekisa-Regular";
+}
+
+button {
+    background-color: rgb(212, 167, 128);
+    padding: 2%;
+    border-radius: 15px;
+    border: 2px solid rgb(77, 46, 18);
+    width: 33%;
+    margin-left: 33%;
+
+
+
+}
+
+.persian {
+    font-size: 35px;
+    color: var(--dark-cream);
+    cursor: pointer;
+    font-family: "Rekisa-Regular  ";
+}
+
+.header {
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.me-img {
+    border-radius: 16%;
+    width: 64%;
+    height: 94%;
+    border: 2px solid rgb(77, 46, 18);
+    box-shadow: 10px 10px rgb(201, 141, 89);
+}
+
+.my-name {
+    margin-top: 25%;
+    font-size: 118px;
+    color: rgb(77, 46, 18);
+    font-family: "RolleteQaku-Regular";
+
+}
+
+.information {
+    margin-top: 4%;
+    display: grid;
+    gap: 4%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-me {
+    background-color: #fbf5e9;
+    border: 2px solid rgb(77, 46, 18);
+    box-shadow: 10px 10px rgb(201, 141, 89);
+    border-radius: 25px;
+    padding: 28px;
+}
+
+.about-header {
+    display: flex;
+    border-bottom: 2px solid rgb(77, 46, 18);
+    border-radius: 25px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    gap: 20px;
+    color: rgb(77, 46, 18);
+}
+
+.about-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 60px;
+}
+
+.about-logos {
+    width: 35px;
+    height: 35px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.mes {
+    color: rgb(77, 46, 18);
+    font-size: 23px;
+    line-height: 47px;
+    font-family: "Sawokecik-Regular";
+    width: 90%;
+}
+
+.contact-me-header {
+
+    text-align: center;
+}
+
+.q-contact {
+    background-color: var(--creamy);
+    padding: 10px;
+    border-bottom: 2px solid var(--dark-cream);
+    border-radius: 20px;
+    font-family: "RolleteQaku-Regular";
+    color: var(--brown);
+    font-size: 65px;
+
+}
+
+.my-address {
+
+    grid-column-gap: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.info {
+    background-color: #fbf5e9;
+    border: 2px solid rgb(77, 46, 18);
+    box-shadow: 10px 10px rgb(201, 141, 89);
+    border-radius: 25px;
+    padding: 28px;
+    display: flex;
+}
+
+.info-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 2%;
+    margin-top: 12%;
+}
+
+.info-id {
+    color: rgb(77, 46, 18);
+    font-size: 30px;
+    font-family: "Rekisa-Regular  ";
+}
+
+.info-link {
+    color: rgb(77, 46, 18);
+    font-size: 40px;
+    margin-top: 7%;
+    font-family: "Rekisa-Regular  ";
+}
+
+.my-names {
+    font-size: 100px;
+    color: rgb(77, 46, 18);
+    font-family: "Gulzar-Regular";
+}
+
+.about-titles {
+    font-family: "IranNastaliq";
+    font-size: 30px;
+    color: rgb(77, 46, 18);
+}
+
+.about-title {
+    font-family: "Sawokecik-Regular";
+    font-size: 25px;
+    margin-left: -13px;
+    color: rgb(77, 46, 18);
+    margin-top: 32px;
+}
+
+.mess {
+    color: rgb(77, 46, 18);
+    font-size: 23px;
+    line-height: 47px;
+    font-family: "IranNastaliq";
+}
+
+.q-contacts {
+    background-color: var(--creamy);
+    padding: 10px;
+    border-bottom: 2px solid var(--dark-cream);
+    border-radius: 20px;
+    color: var(--brown);
+    font-size: 40px;
+    font-family: "IranNastaliq";
+}
+
+.info-ids {
+    color: rgb(77, 46, 18);
+    font-size: 20px;
+    font-family: "IranNastaliq";
+}
+
+.info-imgs {
+    width: 30px;
+    height: 30px;
+    margin-right: 7%;
+    margin-top: 14%;
+    margin-left: 5%;
+}
+
+.info-links {
+    color: rgb(77, 46, 18);
+    font-size: 40px;
+    margin-top: 9%;
+    font-family: "Rekisa-Regular  ";
+}
